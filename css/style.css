@@ -791,6 +791,12 @@ fieldset legend {
   padding:none;
 }
 
+.banner-bg-produk{
+  background-image:url(../img/assets/bannerdetail.png);
+}
+
+
+
 /* ----------------------------------------------------
     input and button type focus outline disable
 ---------------------------------------------------- */
@@ -15571,6 +15577,37 @@ input.cart-plus-minus-box {
   position: relative;
   z-index: 1;
   margin-right: 15px;
+}
+.btn-all-product {
+  border-radius: 0;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--ltn__heading-font);
+  padding: 15px 40px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  position: relative;
+  z-index: 0;
+}
+.dropdown-menu dropdown-menu-product dropdown-menu-right show{
+  left: 33px;
+
+}
+.pagination li{
+  padding-right: 10px;
+}
+
+.page-item.active .page-link {
+  background-color: #B21F24;
+  border-color: #dee2e6;
+}
+.page-link {
+  color: #000;
+  font-weight: 700;
 }
 .btn:last-child {
   margin-right: 0;
