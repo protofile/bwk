@@ -63,6 +63,15 @@ font-family: 'Rajdhani', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
+
+.line-weight{
+  border: none;
+  height: 7px;
+  line-height: 100px;
+  color:#B21F24;
+  background-color: #B21F24;
+}
+
 /* ====================================================
     Gutter Code 
 ==================================================== */
@@ -15599,6 +15608,10 @@ input.cart-plus-minus-box {
 }
 .pagination li{
   padding-right: 10px;
+}
+
+.widget-banner-promo{
+  width: 103%;
 }
 
 .page-item.active .page-link {
