@@ -1,54 +1,4 @@
-/*
-    Template Name: Broccoli
-    Description: Organic Food HTML Template
-    Version: 1.0.0
-*/
-/* Single side border-radius  */
-/* BORDER RADIUS */
-/* user select */
-/* box sizing  */
-/* placeholder */
-/* transition  */
-/* transform */
-/* rotate */
-/* scale */
-/* translate */
-/* translate rotate */
-/* skew */
-/* ============================================================
->>> TABLE OF CONTENTS:
-===============================================================
-# Google fonts
-# Gutter Code 
-# Normalize
-# Typography
-# Custom Class
-# input and button type focus outline disable
-# Form input box
-# Text meant only for screen readers.
-# Transition
 
-# Accessibility
-# Globals
-
-# Alignments
-# Clearings
-# Posts and pages
-# Captions
-# Galleries
-# Unit test
-# ScrollUp
-# Owl Carousel 
-# Slick Slider
-# Background Overlay
-# Scrollbar
-# Padding Top
-# Padding Bottom
-# Margin Top
-# Margin Bottom
-# Custom margin Padding
-
-============================================================= */
 /* -------------------------------------
     Google fonts
 ------------------------------------- */
@@ -63,8 +13,169 @@ font-family: 'Rajdhani', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
+/* .btn {
+  border-radius: 0;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--ltn__heading-font);
+  padding: 15px 40px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  position: relative;
+  z-index: 1;
+  margin-right: 15px;
+} */
+.btn-rounded{
+  background-color: azure;
+  border: 1px solid #ffc107;
+  border-radius:none;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--ltn__heading-font);
+  padding: 15px 40px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  position: relative;
+  z-index: 1;
+  margin-right: 15px;
+  
+}
+.gmaps{
+  padding-top: 30px;
+  color:#B21F24; 
+}
+.bloglistDetailSec{
+  padding-bottom: 70px;
+}
+.row-share-sec ul{
+  display: flex;
+  justify-content: center;
+}
+.row-share-sec p{
+  margin-bottom: 0%;
+  padding-top: 50px;
+  font-size:20px;
+  font-weight: 800;
+  font-family: var(--ltn__heading-font);
+  display: flex;
+  justify-content: center;
+}
 
+.img-sec-article1{
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.img-sec-article{
+  padding-left: 0px;
+}
+.row-content-article{
+  padding-left: 16px;
+  padding-right: 15px;
+  padding-top: 40px;
+}
+.text-item-article{
+  padding-top: 17px;
+  font-size: 12px;
+} 
+.blog-date-item{
+  font-size:16px;
+  font-weight: 700;
+  font-family: var(--ltn__heading-font);
+}
+.row-addres-img{
+  height: 60px;
+  background-color: #F2F2F2;
+  width: 100%;
+  margin-left:0px;
+  /* padding-left: 20px; */
+  /* left: 20px; */
+}
+.btn-article-detail h1{
+    font-size: 48px;
+}
+.btn-article-detail img{
+  padding-top: 20px;
+  width: 100%;
+}
+.btn-article-detail h1{
+  padding-top: 60px;
+}
+.btn-article-detail{
+  padding-top: 60px;
+}
+.bloglistSec{
+  padding-top: 60px;
+}
+.row-visi{
+  padding-top:100px;
+  padding-bottom:80px;
+}
+.visitext{
+  padding-left:50px;
+}
+.visiSec{
+  padding-top:100px
+}
+.row-ceo2{
+  padding-top:90px;
+}
+.nameofceo{
+  padding-left:10%;
+  padding-top:5%;
+}
+.ceodesc{
+  padding-top: 50px;
+  font-size:18px;
+  font-weight:700;
+  font-family: var(--ltn__heading-font);
+}
+.ceodesc1{
+  padding-top: 120px;
+  font-size:18px;
+  font-weight:700;
+  font-family: var(--ltn__heading-font);
+}
+.text-about-last{
+  margin-bottom:1px;
+}
+.listabout{
+  margin-top:1px
+}
+.textabout{
+  padding-left:50px;
+}
+.vertical-line {
+    border-left: 4px solid #000; /* Adjust the width, color, and style as needed */
+    height: 10vh; /* Adjust the height as needed */
+    position: absolute;
+    top: 20;
+    width: 20px;
+}
+.vertical-line1 {
+    border-left: 1px solid #FFB800; /* Adjust the width, color, and style as needed */
+    height: 15vh; /* Adjust the height as needed */
+    position: absolute;
+    top: 80;
+    width: 50px;
+}
 .line-weight{
+  border: none;
+  height: 7px;
+  line-height: 100px;
+  color:#B21F24;
+  background-color: #B21F24;
+}
+.line-weight-detail-article{
+  margin-top: 0%;
   border: none;
   height: 7px;
   line-height: 100px;
