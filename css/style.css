@@ -6801,12 +6801,12 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 @media (max-width: 767px) {
-  .ltn__tab-menu .nav{
+  .nav-horizon-slider-mobile{
     width: 100%;
     overflow-x: auto;
     white-space: nowrap;
   }
-  .ltn__tab-menu .nav a{
+  .nav-horizon-slider-mobile a{
     display: inline-block;
     text-align: center;
     padding: 14px;
