@@ -6705,7 +6705,10 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 /* ----------------------------------------
   Responsive
 ---------------------------------------- */
-@media (min-width: 1200px) and (max-width: 1300px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .bg-hero-mobile img{
+    display: none;
+  }
   .ltn__main-menu > ul > li {
     margin-right: 15px;
   }
@@ -6798,6 +6801,21 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 @media (max-width: 767px) {
+  .ltn__tab-menu .nav{
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .ltn__tab-menu .nav a{
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  .bg-hero{
+    display: none;
+  }
   .ltn__header-top-area {
     padding: 5px 0;
     text-align: center;
