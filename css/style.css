@@ -15930,8 +15930,11 @@ input.cart-plus-minus-box {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+.bg-hero-mobile{
+  display: none;
+}
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) {
   .btn {
     padding: 12px 25px;
   }
@@ -15940,7 +15943,7 @@ input.cart-plus-minus-box {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .btn {
     padding: 10px 20px;
     font-size: 14px;
@@ -15948,7 +15951,14 @@ input.cart-plus-minus-box {
   [type="submit"].btn {
     padding: 12px 30px;
   }
+  .bg-hero-mobile{
+    display: block;
+  }
+  .bg-hero{
+    display: none;
+  }
 }
+
 
 /* ----------------------------------------------------
     END
