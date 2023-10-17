@@ -6954,6 +6954,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 @media (max-width: 449px) {
+  .btn-article-detail h1 {
+    font-size: 35px;
+  }
   .subtitle-mobile-content{
     padding-left: 20px;
   }
