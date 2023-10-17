@@ -6954,6 +6954,15 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 @media (max-width: 449px) {
+  .site-logo-mobile-mitra2{
+    padding-top: 20px;
+  }
+  .site-logo-mobile-mitra{
+    padding-top: 35px;
+  }
+  .section-bg-1-mobile{
+    padding-top: 60px;
+  }
   .img-sec-article1-mobile{
     padding-left:2px;
   }
