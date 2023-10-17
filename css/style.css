@@ -6705,7 +6705,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 /* ----------------------------------------
   Responsive
 ---------------------------------------- */
-@media (min-width: 1200px) and (max-width: 1400px) {
+@media (min-width: 1200px) and (max-width: 2000px) {
   .bg-hero-mobile img{
     display: none;
   }
@@ -6971,11 +6971,17 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   .get-support .get-support-info h4 {
     font-size: 16px;
   }
+  .footer-mobile{
+    padding-bottom: 100px;
+  }
 }
 
 @media (max-width: 370px) {
   .ltn__header-3 .ltn__header-options > ul > li {
     margin-right: 5px;
+  }
+  .footer-mobile{
+    padding-bottom: 100px;
   }
 }
 
@@ -15099,7 +15105,6 @@ input.cart-plus-minus-box {
   }
 
   .bannerIg{
-    min-width: 360px;
     flex: 1;
   }
 
