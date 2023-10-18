@@ -18,17 +18,44 @@ font-family: 'Roboto', sans-serif;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100vw;
   height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 9999;
 }
 
 .loader-logo {
   width: 100px; /* Adjust the size as needed */
   margin-bottom: 20px;
+  animation: loader 2s infinite ease;
+}
+@keyframes loader {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+  50% {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
 }
 
-#loader {
-  display: none;
-}
 .content-loker-banner{
   padding-top: 110px;
 }
