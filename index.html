@@ -797,28 +797,13 @@
     <!-- preloader area end -->
     <div id="loader" class="loader-container text-center">
         <img src="img/assets/logoBakpia.png" alt="Your Logo" class="loader-logo">
-        <div class="spinner-border text-primary" role="status">
-            <span class="visually-hidden">Loading...</span>
-        </div>
     </div>
 
     <!-- All JS Plugins -->
     <script src="js/plugins.js"></script>
     <!-- Main JS -->
-    <script src="js/main.js">
-        document.getElementById('myButton').addEventListener('click', function (e) {
-            e.preventDefault(); // Menghentikan tindakan bawaan dari tautan
+    <script src="js/main.js"></script>
 
-            // Tampilkan loader
-            document.getElementById('loader').style.display = 'block';
-
-            // Tunda navigasi ke tautan yang ditentukan dalam href
-            setTimeout(function () {
-                window.location.href = document.getElementById('myButton').getAttribute('href');
-            }, 5000); // Misalnya, tunda selama 1 detik (1000 ms) sebelum navigasi
-        });
-
-    </script>
 
 </body>
 
