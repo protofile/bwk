@@ -79,14 +79,14 @@
                             <nav>
                                 <div class="ltn__main-menu">
                                     <ul>
-                                        <li><a href="index.html">Beranda</a></li>
-                                        <li><a href="produk.html">Produk</a></li>
-                                        <li><a href="articleList.html">Artikel</a></li>
-                                        <li><a href="about.html">Tentang Kami</a></li>
-                                        <li><a href="mitra.html">Toko</a></li>
-                                        <li><a href="promo.html">Promo</a></li>
-                                        <li><a href="faq.html">FAQ</a></li>
-                                        <li><a href="karir.html">Karir</a></li>
+                                        <li><a href="index.html" id="myButton">Beranda</a></li>
+                                        <li><a href="produk.html" id="myButton">Produk</a></li>
+                                        <li><a href="articleList.html" id="myButton">Artikel</a></li>
+                                        <li><a href="about.html" id="myButton">Tentang Kami</a></li>
+                                        <li><a href="mitra.html" id="myButton">Toko</a></li>
+                                        <li><a href="promo.html" id="myButton">Promo</a></li>
+                                        <li><a href="faq.html" id="myButton">FAQ</a></li>
+                                        <li><a href="karir.html" id="myButton">Karir</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -145,14 +145,14 @@
                 </div>
                 <div class="ltn__utilize-menu">
                     <ul>
-                        <li><a href="index.html">Beranda</a></li>
-                        <li><a href="produk.html">Produk</a></li>
-                        <li><a href="articleList.html">Artikel</a></li>
-                        <li><a href="about.html">Tentang Kami</a></li>
-                        <li><a href="mitra.html">Toko</a></li>
-                        <li><a href="promo.html">Promo</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="karir.html">Karir</a></li>
+                        <li><a href="index.html" id="myButton">Beranda</a></li>
+                        <li><a href="produk.html" id="myButton">Produk</a></li>
+                        <li><a href="articleList.html" id="myButton">Artikel</a></li>
+                        <li><a href="about.html" id="myButton">Tentang Kami</a></li>
+                        <li><a href="mitra.html" id="myButton">Toko</a></li>
+                        <li><a href="promo.html" id="myButton">Promo</a></li>
+                        <li><a href="faq.html" id="myButton">FAQ</a></li>
+                        <li><a href="karir.html" id="myButton">Karir</a></li>
                     </ul>
                 </div>
                 <div class="ltn__social-media-2">
@@ -786,20 +786,39 @@
     <!-- END FOOTER -->
 
     <!-- preloader area start -->
-    <div class="preloader d-none" id="preloader">
+    <!-- <div class="preloader d-none" id="preloader">
         <div class="preloader-inner">
             <div class="spinner">
                 <div class="dot1"></div>
                 <div class="dot2"></div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- preloader area end -->
+    <div id="loader" class="loader-container text-center">
+        <img src="img/assets/logoBakpia.png" alt="Your Logo" class="loader-logo">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
 
     <!-- All JS Plugins -->
     <script src="js/plugins.js"></script>
     <!-- Main JS -->
-    <script src="js/main.js"></script>
+    <script src="js/main.js">
+        document.getElementById('myButton').addEventListener('click', function (e) {
+            e.preventDefault(); // Menghentikan tindakan bawaan dari tautan
+
+            // Tampilkan loader
+            document.getElementById('loader').style.display = 'block';
+
+            // Tunda navigasi ke tautan yang ditentukan dalam href
+            setTimeout(function () {
+                window.location.href = document.getElementById('myButton').getAttribute('href');
+            }, 5000); // Misalnya, tunda selama 1 detik (1000 ms) sebelum navigasi
+        });
+
+    </script>
 
 </body>
 

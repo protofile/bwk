@@ -13,6 +13,22 @@ font-family: 'Rajdhani', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loader-logo {
+  width: 100px; /* Adjust the size as needed */
+  margin-bottom: 20px;
+}
+
+#loader {
+  display: none;
+}
 .content-loker-banner{
   padding-top: 110px;
 }
